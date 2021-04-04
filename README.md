@@ -1,7 +1,8 @@
 This is a shopping webiste made by me.it works like any other shopping website like Amazon,flipkart.
 The Technologies i used in this project-
-for frontend - HTML 5,CSS,BOOTSTRAP 4.4.1,Some custom modules
-for backend - JS,EXPRESS JS,JQUERY 3.5.1,AJAX , ,NODE JS FRAMEWORk,HANDLEBARS HBS
+for frontend - HTML 5,CSS,BOOTSTRAP 4.4.1,Some custom modules.
+for backend - JS,EXPRESS JS,JQUERY 3.5.1,AJAX , ,NODE JS FRAMEWORk,HANDLEBARS HBS.
+for DATABASE - SEQUELIZE ORM,MYSQL2!
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/61931894/113510122-d8264b80-9576-11eb-9496-a321bb902e3a.png)
 
