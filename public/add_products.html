@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,36 +12,124 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-        <script src="shop.js"></script>
-        <script src="add_products.js"></script>
+   
+    <script src="shop.js"></script>
+    <script src="add_products.js"></script>
+    <link rel="stylesheet" href="style-1.css">
     <title>Document</title>
 </head>
-<body >
+
+<body>
     <!--first we have to create a form for submit details-->
-    <div class="p-4 bg-secondary">
-        <h3 class="text-center">ADD product</h3>
-        <div class="row">
-        <div class="col"></div>
-        <div class="col-6">
-        <form>
-            <div class="form-group">
-                <label for="productName">PRODUCT-NAME</label>
-            <input type="text" name="name" id="productName">
+    <div class="container-xxl">
+        <!------------upper navbar------------->
+        <nav class="navbar navbar-expand-lg navbar-light" style=" background-color : rgb(255, 51, 131);">
+            <button class="navbar-brand button4" href="">AMAZESHOP!</button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="add_products.html">ADD-PRODUCT</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    OPTIONS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Review</a>
+                    <a class="dropdown-item" href="#">Our Dealers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Contact-us</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      CATEGORIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">ELECTRONICS</a>
+                      <a class="dropdown-item" href="#">FURNITURES</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">KITCHEN</a>
+                      <a class="dropdown-item" href="#">PHONES&ACCESS</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">FASHION</a>
+                      <a class="dropdown-item" href="#">FOOTWEARS</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">COMPUTERS</a>
+                      <a class="dropdown-item" href="#">SOFTWARES</a>
+    
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="-1">About</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
-            <div class="form-group">
-                <label for="productManufacturer">MANUFACTURER</label>
-            <input type="text" name="name" id="productManufacturer">
+          </nav>
+        <!-------forms for add new product-->
+        <div class="p-4 bg-secondary" style="height: 700px; background-image: url(shop-1.jpg);">
+            <div class="content">
+                <h1>ADD NEW PRODUCT</h1>
+                <div class="col-6">
+                    <form>
+                            <label for="productName" class="labels">PRODUCT-NAME:</label>
+                            <input type="text" name="name" id="productName" class="proinfo">
+                    
+                            <label for="productManufacturer" class="labels">MANUFACTURER:</label>
+                            <input type="text" name="name" id="productManufacturer" class="proinfo">
+                        
+                
+                            <label for="productPrice" class="labels">PRICE:</label>
+                            <input type="text" name="name" id="productPrice" class="proinfo">
+
+                    </form>
+                    <button id="btnProductAdd" class="btn btn-success btn-lg"
+                    style="margin-top: 20px; margin-left:230px; padding-left:35px; text-align: center;">Add</button>
+                    <button id="btnCancel" class="btn btn-danger btn-lg"
+                    style="margin-top: 20px; margin-left:230px; ">Cancel</button>
+                </div>
+            
             </div>
-            <div class="form-group">
-                <label for="productPrice">PRICE</label>
-            <input type="text" name="name" id="productPrice">
             </div>
-           
-        </form>
-        <button id="btnProductAdd" class="btn btn-danger">Add</button>
-        </div>
-        <div class="col"></div>
-        
+  
+
+   <!----foooooooterrrrr navbarrrrrrr-->
+   <div style="width : 100%; height : 250px;" class="bg-dark text-light">
+    <span>
+      <ul style="padding-top : 20px; padding-left : 200px; display : inline-block;" class="font-italic">
+        <li>home</li>
+        <li>products-list</li>
+        <li>certified</li>
+        <li>precaution</li>
+        <li>copyrights</li>
+      </ul>
+      <ul style="padding-left : 200px; display : inline-block;" class="font-italic">
+        <li>Owners</li>
+        <li>Complaints</li>
+        <li>mail-us</li>
+        <li>Phone no.01232-124234</li>
+        <li>Contact-us</li>
+      </ul>
+    </span>
+    <h3 class="font-italic" style="text-align: center; padding-top : 20px;font-size : 14px">@ all copyrights are
+      reserved to their respective owners </h3>
+  </div>
+  <!----------------------------------------->
+
     </div>
 </body>
+</body>
+
 </html>

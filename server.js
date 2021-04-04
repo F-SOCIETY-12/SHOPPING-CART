@@ -11,5 +11,5 @@ app.use('/api',require('./routes/api').route)
 
 app.listen(4750,()=>
 {
-    console.log('http://localhost:4750')
+    console.log('http://localhost:4750/')
 })
