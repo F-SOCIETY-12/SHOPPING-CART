@@ -4,6 +4,12 @@ for frontend - HTML 5,CSS,BOOTSTRAP 4.4.1,Some custom modules.
 for backend - JS,EXPRESS JS,JQUERY 3.5.1,AJAX , ,NODE JS FRAMEWORk,HANDLEBARS HBS.
 for DATABASE - SEQUELIZE ORM,MYSQL2!
 
+Upcoming Features -
+1.Delete products.
+2.Reminder of out of stock
+3.Encryption of name and password
+4.sales Alert.
+
 ![Screenshot (11)](https://user-images.githubusercontent.com/61931894/113510122-d8264b80-9576-11eb-9496-a321bb902e3a.png)
 
 ![Screenshot (12)](https://user-images.githubusercontent.com/61931894/113510123-d9f00f00-9576-11eb-8521-f19285d94af6.png)
